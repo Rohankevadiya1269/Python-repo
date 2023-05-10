@@ -39,7 +39,7 @@ print()
  # Code Exercise
  # In this exercise We can print a Greeting message based on time using if else loop 
 import time
-timestamp=time.strftime('%H:%M:%S')
+timestamp=time.strftime('%H:%M:%S') #strftime is a method that returns local time in string format
 timestamp1=time.strftime('%H')
 timestamp2=time.strftime('%M')
 timestamp3=time.strftime('%S')
