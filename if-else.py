@@ -5,13 +5,12 @@ if(budget>=priceOfApple):
 else:
     print("siri do not add apples to the cart")
 print()
-num=int(input("Enter a number here:"))
-if(num>0):
-    print("Number is Positive")
-elif(num==0):
-    print("Number is Zero")
+
+age=int(input("Enter a your age here:"))
+if(age<18):
+    print("OOPS You are not eligible to vote")
 else:
-    print("Number is negative")
+    print("You are eligible to vote")
 print()
 
 #Nested if statements
