@@ -1,5 +1,5 @@
 priceOfApple= 210
-budget= 200
+budget= 200  
 if(budget>=priceOfApple):
     print("Siri add apples to the cart")
 else:
@@ -35,3 +35,23 @@ elif(inp1>0):
         print("Number is greater than 60")
 else:
     print("Number is negative")
+print()
+ # Code Exercise
+ # In this exercise We can print a Greeting message based on time using if else loop 
+import time
+timestamp=time.strftime('%H:%M:%S')
+timestamp1=time.strftime('%H')
+timestamp2=time.strftime('%M')
+timestamp3=time.strftime('%S')
+print(timestamp)
+
+timestamp4=int(timestamp1)
+if(timestamp4>=6 and timestamp4<12):
+    print("Good Morning Sir !!")
+elif(timestamp4>=12 and timestamp4<17):
+    print("Good Afternoon Sir !!")
+elif(timestamp4>=17 and timestamp4<21):
+    print("Good Evening Sir !!")
+else:
+    print("Good Night Sir !!")
+    
